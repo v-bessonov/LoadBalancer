@@ -1,0 +1,16 @@
+/Algorithms.ConsoleApp/Files/Searching/leipzig1M.txt
+/Algorithms.ConsoleApp/Files/Graphs/largeG.zip
+/Algorithms.ConsoleApp/Files/Graphs/largeEWG.zip
+/.vs/Algorithms-NET
+/Algorithms.ConsoleApp/Files/Graphs/largeEWG.txt
+/Algorithms.ConsoleApp/Files/Graphs/largeG.txt
+/Algorithms.ConsoleApp/obj
+/Algorithms.ConsoleApp/Properties/launchSettings.json
+/Algorithms.ConsoleAppNet/bin/Debug
+/Algorithms.ConsoleAppNet/obj/Debug
+/Algorithms.Core/obj
+/Algorithms.CoreNet/bin/Debug
+/Algorithms.CoreNet/obj/Debug
+/Algorithms.Core/bin/Debug/net5.0
+/Algorithms.ConsoleApp/bin/Debug/net5.0
+.idea/*.*

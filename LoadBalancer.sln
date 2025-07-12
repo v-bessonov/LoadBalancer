@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service1", "Service1\Service1.csproj", "{2AF3ED1C-0732-4013-AF6E-C67970136E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service2", "Service2\Service2.csproj", "{4C9C6336-8168-4ECC-B551-FBFA1D224F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadBalancer", "LoadBalancer\LoadBalancer.csproj", "{FFDAAFCF-90C2-443C-A01B-6BAA646654F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AF3ED1C-0732-4013-AF6E-C67970136E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF3ED1C-0732-4013-AF6E-C67970136E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF3ED1C-0732-4013-AF6E-C67970136E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF3ED1C-0732-4013-AF6E-C67970136E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9C6336-8168-4ECC-B551-FBFA1D224F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9C6336-8168-4ECC-B551-FBFA1D224F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9C6336-8168-4ECC-B551-FBFA1D224F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9C6336-8168-4ECC-B551-FBFA1D224F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDAAFCF-90C2-443C-A01B-6BAA646654F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDAAFCF-90C2-443C-A01B-6BAA646654F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDAAFCF-90C2-443C-A01B-6BAA646654F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDAAFCF-90C2-443C-A01B-6BAA646654F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
