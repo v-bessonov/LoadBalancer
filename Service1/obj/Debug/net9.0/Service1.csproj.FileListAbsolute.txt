@@ -30,3 +30,7 @@
 /home/vladislav/Csharp/LoadBalancer/Service1/obj/Debug/net9.0/Service1.pdb
 /home/vladislav/Csharp/LoadBalancer/Service1/obj/Debug/net9.0/Service1.genruntimeconfig.cache
 /home/vladislav/Csharp/LoadBalancer/Service1/obj/Debug/net9.0/ref/Service1.dll
+/home/vladislav/Csharp/LoadBalancer/Service1/obj/Debug/net9.0/Service1.sourcelink.json
+/home/vladislav/Csharp/LoadBalancer/Service1/bin/Debug/net9.0/Scalar.AspNetCore.dll
+/home/vladislav/Csharp/LoadBalancer/Service1/bin/Debug/net9.0/Swashbuckle.AspNetCore.ReDoc.dll
+/home/vladislav/Csharp/LoadBalancer/Service1/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll

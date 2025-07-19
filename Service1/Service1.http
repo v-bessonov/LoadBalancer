@@ -4,3 +4,18 @@ GET {{Service1_HostAddress}}/
 Accept: application/json
 
 ###
+
+GET {{Service1_HostAddress}}/swagger/index.html
+Accept: application/json
+
+###
+
+GET {{Service1_HostAddress}}/api-docs/index.html
+Accept: application/json
+
+###
+
+GET {{Service1_HostAddress}}/scalar/v1
+Accept: application/json
+
+###

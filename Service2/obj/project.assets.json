@@ -33,6 +33,54 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Scalar.AspNetCore/2.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Swashbuckle.AspNetCore.ReDoc/9.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Swashbuckle.AspNetCore.ReDoc.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Swashbuckle.AspNetCore.ReDoc.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/9.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -67,11 +115,67 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "Scalar.AspNetCore/2.6.3": {
+      "sha512": "JEOJp4LwEBOao6KFer9Gr2VpqCAXUnsZBJm9z0APKeCouSCq8Hz1wfIDndYlslh4lOR+R5DrR/cD/M/kYYuFfg==",
+      "type": "package",
+      "path": "scalar.aspnetcore/2.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net8.0/Scalar.AspNetCore.dll",
+        "lib/net8.0/Scalar.AspNetCore.xml",
+        "lib/net9.0/Scalar.AspNetCore.dll",
+        "lib/net9.0/Scalar.AspNetCore.xml",
+        "scalar.aspnetcore.2.6.3.nupkg.sha512",
+        "scalar.aspnetcore.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.ReDoc/9.0.3": {
+      "sha512": "Q2ZEzTkvI5hJ5b6XvIYoLRuK/hXwteFfs47G+jcdfupREPeqEn4ln6butskweaXEuMurTPuYVqof4azGMzUM5A==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.redoc/9.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/Swashbuckle.AspNetCore.ReDoc.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.ReDoc.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.ReDoc.xml",
+        "lib/net9.0/Swashbuckle.AspNetCore.ReDoc.dll",
+        "lib/net9.0/Swashbuckle.AspNetCore.ReDoc.pdb",
+        "lib/net9.0/Swashbuckle.AspNetCore.ReDoc.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.redoc.9.0.3.nupkg.sha512",
+        "swashbuckle.aspnetcore.redoc.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/9.0.3": {
+      "sha512": "DgJKJASz5OAygeKv2+N0FCZVhQylESqLXrtrRAqIT0vKpX7t5ImJ1FL6+6OqxKiamGkL0jchRXR8OgpMSsMh8w==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/9.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swaggerui.9.0.3.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.6"
+      "Microsoft.AspNetCore.OpenApi >= 9.0.6",
+      "Scalar.AspNetCore >= 2.6.3",
+      "Swashbuckle.AspNetCore.ReDoc >= 9.0.3",
+      "Swashbuckle.AspNetCore.SwaggerUI >= 9.0.3"
     ]
   },
   "packageFolders": {
@@ -120,6 +224,18 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.6, )"
+          },
+          "Scalar.AspNetCore": {
+            "target": "Package",
+            "version": "[2.6.3, )"
+          },
+          "Swashbuckle.AspNetCore.ReDoc": {
+            "target": "Package",
+            "version": "[9.0.3, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerUI": {
+            "target": "Package",
+            "version": "[9.0.3, )"
           }
         },
         "imports": [

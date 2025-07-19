@@ -32,3 +32,7 @@
 /home/vladislav/Csharp/LoadBalancer/LoadBalancer/obj/Debug/net9.0/LoadBalancer.pdb
 /home/vladislav/Csharp/LoadBalancer/LoadBalancer/obj/Debug/net9.0/LoadBalancer.genruntimeconfig.cache
 /home/vladislav/Csharp/LoadBalancer/LoadBalancer/obj/Debug/net9.0/ref/LoadBalancer.dll
+/home/vladislav/Csharp/LoadBalancer/LoadBalancer/obj/Debug/net9.0/LoadBalancer.sourcelink.json
+/home/vladislav/Csharp/LoadBalancer/LoadBalancer/bin/Debug/net9.0/Scalar.AspNetCore.dll
+/home/vladislav/Csharp/LoadBalancer/LoadBalancer/bin/Debug/net9.0/Swashbuckle.AspNetCore.ReDoc.dll
+/home/vladislav/Csharp/LoadBalancer/LoadBalancer/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll

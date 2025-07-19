@@ -1,16 +1,10 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-
-
-// Add YARP services
 builder.Services.AddReverseProxy()
     .LoadFromMemory(
-        new[]
-        {
+        [
             new Yarp.ReverseProxy.Configuration.RouteConfig
             {
                 RouteId = "default",
@@ -20,9 +14,8 @@ builder.Services.AddReverseProxy()
                     Path = "{**catch-all}"
                 }
             }
-        },
-        new[]
-        {
+        ],
+        [
             new Yarp.ReverseProxy.Configuration.ClusterConfig
             {
                 ClusterId = "backend-cluster",
@@ -33,16 +26,14 @@ builder.Services.AddReverseProxy()
                 },
                 LoadBalancingPolicy = "RoundRobin"
             }
-        }
+        ]
     );
 
 var app = builder.Build();
 
-// Use the reverse proxy
 app.MapReverseProxy();
 
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();

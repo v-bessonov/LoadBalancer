@@ -30,3 +30,7 @@
 /home/vladislav/Csharp/LoadBalancer/Service2/obj/Debug/net9.0/Service2.pdb
 /home/vladislav/Csharp/LoadBalancer/Service2/obj/Debug/net9.0/Service2.genruntimeconfig.cache
 /home/vladislav/Csharp/LoadBalancer/Service2/obj/Debug/net9.0/ref/Service2.dll
+/home/vladislav/Csharp/LoadBalancer/Service2/bin/Debug/net9.0/Scalar.AspNetCore.dll
+/home/vladislav/Csharp/LoadBalancer/Service2/bin/Debug/net9.0/Swashbuckle.AspNetCore.ReDoc.dll
+/home/vladislav/Csharp/LoadBalancer/Service2/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/vladislav/Csharp/LoadBalancer/Service2/obj/Debug/net9.0/Service2.sourcelink.json

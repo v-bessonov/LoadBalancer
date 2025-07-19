@@ -48,6 +48,18 @@
               "target": "Package",
               "version": "[9.0.6, )"
             },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.ReDoc": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Yarp.ReverseProxy": {
               "target": "Package",
               "version": "[2.3.0, )"
