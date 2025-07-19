@@ -1,16 +1,62 @@
-/Algorithms.ConsoleApp/Files/Searching/leipzig1M.txt
-/Algorithms.ConsoleApp/Files/Graphs/largeG.zip
-/Algorithms.ConsoleApp/Files/Graphs/largeEWG.zip
-/.vs/Algorithms-NET
-/Algorithms.ConsoleApp/Files/Graphs/largeEWG.txt
-/Algorithms.ConsoleApp/Files/Graphs/largeG.txt
-/Algorithms.ConsoleApp/obj
-/Algorithms.ConsoleApp/Properties/launchSettings.json
-/Algorithms.ConsoleAppNet/bin/Debug
-/Algorithms.ConsoleAppNet/obj/Debug
-/Algorithms.Core/obj
-/Algorithms.CoreNet/bin/Debug
-/Algorithms.CoreNet/obj/Debug
-/Algorithms.Core/bin/Debug/net5.0
-/Algorithms.ConsoleApp/bin/Debug/net5.0
-.idea/*.*
+### OS directories
+.Spotlight-V100
+.Trashes
+
+### OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+### IDE directories
+.vs
+.vscode
+.idea
+
+### IDE files
+*.suo
+*.csproj.user
+*.xproj.user
+*.DotSettings.user
+*.userprefs
+*.pubxml
+
+### VCS directories
+
+
+### VCS files
+*.vssscc
+*.csproj.vspscc
+
+### TESTS directories
+
+
+### TESTS files
+*.ncrunchsolution.user
+*.ncrunchsolution.cache
+*.ncrunchproject.user
+*.ncrunchproject.cache
+
+### .NET directories
+
+
+### .NET files
+project.lock.json
+
+### Temp directories
+[Bb]in
+[Oo]bj
+[Tt]mp
+packages
+.publish
+.logs
+
+### Temp files
+*.log
+*.nuget.cache
+
+### Full path
+/deps/*
+/samples/*
+/logs/*
+/tmp/*
+/bin/*
